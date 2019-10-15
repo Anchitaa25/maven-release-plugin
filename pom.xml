@@ -4,8 +4,9 @@
 	<artifactId>maven-release-plugin-example</artifactId>
 	<version>0.2-SNAPSHOT</version>
 	<scm>
-		<url>https://github.com/arpitaggarwal/maven-release-plugin-example</url>
-		<connection>scm:git:https://github.com/arpitaggarwal/maven-release-plugin-example.git</connection>
+		<url>https://github.com/ravikiran529/maven-release-plugin-example</url>
+		<connection>scm:git:https://github.com/ravikiran529/maven-release-plugin-example.git</connection>
+		<developerConnection>scm:git:https://github.com/ravikiran529/maven-release-plugin-example</developerConnection>
       <tag>HEAD</tag>
   </scm>
 	
@@ -14,7 +15,7 @@
 		<repository>
 			<id>nexus-releases</id>
 			<!-- http://localhost:8081/repository/<repository-name> -->
-			<url>http://localhost:8081/repository/api-release</url>
+			<url>http://192.168.35.14:8080/nexus/content/repositories/releases/</url>
 		</repository>
 	</distributionManagement>
 	<profiles>
@@ -64,7 +65,7 @@
 						</executions>
 						<configuration>
 							<serverId>nexus-releases</serverId>
-							<nexusUrl>http://localhost:8081/</nexusUrl>
+							<nexusUrl>http://192.168.35.14:8080/nexus/content/repositories/releases/</nexusUrl>
 							<skipStaging>true</skipStaging>
 						</configuration>
 					</plugin>
