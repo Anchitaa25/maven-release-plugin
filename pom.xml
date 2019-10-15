@@ -13,7 +13,7 @@
 	<!-- Repository Information -->
 	<distributionManagement>
 		<repository>
-			<id>nexus-releases</id>
+			<id>deployment</id>
 			<!-- http://localhost:8081/repository/<repository-name> -->
 			<url>http://192.168.35.14:8080/nexus/content/repositories/releases/</url>
 		</repository>
@@ -64,7 +64,7 @@
 							</execution>
 						</executions>
 						<configuration>
-							<serverId>nexus-releases</serverId>
+							<serverId>deployment</serverId>
 							<nexusUrl>http://192.168.35.14:8080/nexus/content/repositories/releases/</nexusUrl>
 							<skipStaging>true</skipStaging>
 						</configuration>
