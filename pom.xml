@@ -4,9 +4,9 @@
 	<artifactId>java-app</artifactId>
 	<version>1.0-SNAPSHOT</version>
 	<scm>
-		<url>http://github.com/ravikiran529/maven-release-plugin-example</url>
-		<connection>scm:git:https://github.com/ravikiran529/maven-release-plugin-example.git</connection>
-		<developerConnection>scm:git:https://github.com/ravikiran529/maven-release-plugin-example</developerConnection>
+		<url>scm:git:git@github.com/ravikiran529/maven-release-plugin-example</url>
+		<connection>scm:git:git@github.com/ravikiran529/maven-release-plugin-example.git</connection>
+		<developerConnection>scm:git:git@github.com/ravikiran529/maven-release-plugin-example</developerConnection>
         </scm>
 	
 	<!-- Repository Information -->
